@@ -1,0 +1,49 @@
+:root
+  // fonts 
+  --font-family: 
+  --secondary-font-family: 
+  // colors
+  --white-color: #fff
+  --black-color: #000
+
+  //gradients
+
+  // offsets
+  --big-container-offset: 
+  --container-offset: 
+  --middle-offset: 
+  --small-offset: 
+  --tiny-offset: 
+
+  //shadows
+
+  //container offset for small screens
+  @media (max-width: 768px)
+    --container-offset: 50px
+
+body
+  min-width: 380px
+  font-family: var(--font-family)
+
+//container
+.container-wrap
+  max-width: 1560px
+  padding: 0 10px
+  margin: 0 auto
+
+a
+  &:hover
+    filter: contrast(1.6)
+
+.title
+  font-family: var(--font-family)
+  font-weight: 
+  font-size: 
+  color: var(--black-color)
+  margin: 0
+
+.description
+  font-family: var(--font-family)
+  font-weight: 
+  font-size: 
+  color: var(--black-color)
