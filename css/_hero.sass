@@ -1,0 +1,120 @@
+.hero
+  padding-top: 200px
+  background-image: url('./../img/heroBG.png')
+  position: relative
+  &::after
+    filter: blur(30px)
+    content: ''
+    position: absolute
+    bottom: -20px
+    left: 0
+    width: 100%
+    height: 25%
+    background: linear-gradient(180deg, rgba(246, 246, 246, 0.00) 0%, #F6F6F6 65.42%)
+  &__container
+    display: grid
+    grid-template-columns: 1fr 1fr
+    position: relative
+    z-index: 2
+  &__left
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__num
+    position: relative
+    opacity: 0
+    animation: 1.5s ease-out 1.5s numAnimation
+    animation-fill-mode: forwards
+    display: flex
+    justify-content: space-between
+    gap: 20px
+    svg
+      &:last-child
+        position: absolute
+        right: -80px
+        z-index: -1
+  &__subtitle
+    color: var(--dark-blue-color)
+    opacity: 0
+    animation: 1s linear 1.5s opacityAnimation
+    animation-fill-mode: forwards
+  &__right
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+  &__food
+    position: relative
+    max-width: 861px
+    max-height: 861px
+    animation: 1.5s linear foodAnimation
+    animation-fill-mode: forwards
+    width: 100%
+
+  &__decor
+    position: absolute
+    z-index: 2
+    bottom: 0
+    left: 0
+    max-width: 185px
+    max-height: 50%
+    width: 100%
+    height: 100%
+    opacity: 0
+    animation: 1s linear 2s decorAnimation
+    animation-fill-mode: forwards
+    object-fit: contain
+  &__video
+    position: absolute
+    z-index: 2
+    top: 0
+    right: 8%
+    max-width: 200px
+    max-height: 50%
+    width: 100%
+    height: 100%
+    opacity: 0
+    animation: 1.5s linear 1.5s woomenAnimation
+    animation-fill-mode: forwards
+    object-fit: contain
+
+@keyframes foodAnimation
+  0%
+    transform: translateX(-150%)
+    opacity: 0
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@keyframes numAnimation
+  0%
+    transform: translateX(100%)
+    opacity: 0
+  100%
+    opacity: 1
+    transform: translateX(0) 
+  
+@keyframes decorAnimation
+  0%
+    opacity: 0
+    transform: translateY(140%)
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+@keyframes opacityAnimation
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes woomenAnimation
+  0%
+    opacity: 0
+    transform: translateY(-200%)
+  100%
+    opacity: 1
+    transform: translateY(0)
+    
+    

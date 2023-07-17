@@ -3,13 +3,118 @@
 
 //notepads
 @media (max-width: 1280px)
-
+  .form__wrapper
+    max-width: 90%
+  .footer__container
+    display: grid
+    grid-template-columns: 1fr 1fr
+    place-items: center
+    gap: 30px
+  .header__menu--active
+    width: 60vw
+    min-width: 60vw
 @media (max-width: 1024px) 
 
+
 @media (max-width: 988px)
+  .hero__num
+    svg
+      max-width: 50%
+      max-height: 50%
+      &:last-child
+        position: static
+  .hero__decor, .hero__video
+    max-height: 40%
+  .header__container
+    gap: 100px
+  .team__slide
+    width: 30%
+  .team__slide--big
+    width: 50%
 
 //tablet
 @media (max-width: 768px)
-
+  .price__container
+    flex-direction: column
+  .about__container
+    flex-direction: column
+  .about__left, .about__right
+    max-width: 100%
+  .events__wrapper
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+    gap: 20px
+  .event
+    width: 100%
+  .hero__container
+    display: flex
+    flex-direction: column-reverse
+    gap: 20px
+  .hero__num 
+    svg
+      max-height: 100%
+      max-width: 100%
+  .form__pics 
+    img
+      max-width: 100%
+  .form__wrapper
+    max-width: 100%
+    height: 100%
+    right: 0
+  .form__content
+    grid-template-columns: 1fr
+  .footer__container
+    display: grid
+    grid-template-columns: 1fr
+  .header__menu--active
+    width: 80vw
+    min-width: 80vw
+  .form__pic
+    display: none
+  .header__list
+    width: min-content
+    .header__item
+      .header__burger
+        position: relative
+        right: 30px
+        width: 45px
+        height: 45px
+        justify-content: space-between
+      .header__burger--line
+        width: 100%
+      &:not(:last-child)
+        display: none
+  .form__submit
+    width: 50%
+    right: 10px
+  .footer
+    padding: 90px 0
+  .team__slide
+    width: 35%
+  .team__slide--big
+    width: 60%
+  .hero__num
+    display: none
+  .form__wrapper
+    position: static
 //phone
+@media (max-width: 500px)
+  .form__nums
+    display: none
+  .form__wrapper
+    position: relative
+  .team__slide--big
+    width: 80%
+  .team__slide
+    width: 80%
+  .header
+    margin-top: 35px
+  .hero
+    padding-top: 150px
+
 @media (max-width: 480px)
+  .header__menu--active
+    height: 90vh
+    min-height: 90vh
+    min-width: 90vw
+    width: 90vw

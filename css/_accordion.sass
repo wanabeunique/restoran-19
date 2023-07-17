@@ -1,0 +1,72 @@
+:root
+  --accordion-list-offset: 30px
+  --accordion-ico: url('./../img/arrow.svg')
+  --ico-rotate: rotate(90deg)
+  --accordion-rotate-time: .5s
+  --accordion-bg: white
+  --accordion-padding: 60px 40px
+  --accordion-item-offset: 25px
+
+.accordion
+  width: 100%
+  background: white
+  list-style: none
+  padding: 0
+  margin: 0
+  padding: var(--accordion-padding)
+  display: flex
+  flex-direction: column
+  &__item
+    padding-top: var(--accordion-item-offset)
+    display: flex
+    flex-direction: column
+    &:not(:last-child)
+      padding: var(--accordion-item-offset) 0
+      border-bottom: 1px solid rgba(0, 0, 0, 0.60)
+  &--open
+  &__list
+    display: flex
+    list-style: none
+    flex-direction: column
+    padding: 0
+    margin: 0
+  &__item
+    display: flex
+    flex-direction: column
+    gap: var(--accordion-item-offset)
+  &__preview
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__title
+    margin: 0
+  &__ico
+    width: 15px
+    height: 15px
+    background-image: var(--accordion-ico)
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+  &__content
+    display: none
+  &__content--active
+    display: block
+    animation: calc(var(--accordion-rotate-time) *  2) contentAnimation forwards
+  &__ico--active
+    animation: var(--accordion-rotate-time) icoAnimation forwards
+
+@keyframes contentAnimation
+  0%
+    opacity: 0
+    height: 0
+  100%
+    opacity: 1
+    height: 100%
+    
+
+
+@keyframes icoAnimation
+  0%
+    transform: 0
+  100%
+    transform: var(--ico-rotate)

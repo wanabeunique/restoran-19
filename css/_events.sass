@@ -1,0 +1,32 @@
+.events
+  margin-top: var(--big-container-offset)
+  &__wrapper
+    // display: grid
+    // grid-template-columns: 1fr 1fr 1fr
+    // gap: 50px
+    display: flex
+    justify-content: space-between
+  &__title
+    margin-bottom: 50px
+  &__item
+    width: 30%
+
+.event
+  display: flex
+  flex-direction: column 
+  &__img
+    max-height: 350px
+    object-fit: cover
+    border-radius: 0 15px
+    margin-bottom: 40px
+  &__title
+    color: var(--dark-blue-color)
+    font-size: 40px
+    margin: 0
+    margin-bottom: 15px
+  &__subtitle
+    color: var(--dark-blue-color)
+    font-family: var(--secondary-font-family)
+    font-size: 16px
+    margin: 0
+

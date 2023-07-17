@@ -1,0 +1,77 @@
+.form
+  margin-top: var(--middle-container-offset)
+  &__container
+    position: relative
+  &__pics
+    display: flex
+    justify-content: space-between
+    img
+      object-fit: cover
+      width: auto
+      height: auto
+  &__pic
+    max-height: 350px
+    position: absolute
+    top: 0
+    right: 0
+  &__wrapper
+    border-radius: 0 50px
+    position: absolute
+    max-width: 1000px
+    width: 100%
+    min-height: 50%
+    height: 400px
+    top: 25%
+    right: 10%
+    padding: 35px 60px
+    background: var(--white-color)
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    gap: 50px
+  &__title
+    color: var(--dark-blue-color)
+    font-size: 50px
+  &__content
+    width: 100%
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 35px
+  &__item
+    height: 60px
+    background: #FFF6F6
+    border-radius: 0 15px
+    border: none
+    padding-left: 26px
+    color: var(--dark-blue-color)
+    font-size: 20px
+    font-weight: 400
+  &__count
+    display: flex
+    justify-content: space-between
+    background: var(--white-color)
+    align-items: center
+  &__item--cnt
+    display: flex
+    gap: 15px
+  &__item--decrement, &__item--increment
+    cursor: pointer
+  &__item--text
+    color: var(--dark-blue-color)
+    font-size: 20px
+    font-weight: 400
+    margin: 0
+  &__submit
+    width: 25%
+    position: absolute
+    height: 60px
+    bottom: -80px
+    right: 0
+    border-radius: 0px 15px
+    background: linear-gradient(180deg, #1F1F1F 0%, #5B5B5B 100%)
+    color: var(--white-color)
+    font-family: var(--secondary-font-family)
+    font-size: 19px
+    font-weight: 300
+    cursor: pointer

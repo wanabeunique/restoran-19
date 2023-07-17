@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- plugins -->
+  <script defer src="./../js/simplebar.js"></script>
+  <script defer src="./../js/swiper.js"></script>
+  <script defer src="./../js/index.js"></script>
+  <script defer src="./../js/accordion.js"></script>
+  <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body>
+  <div class="header__menu">
+    <div class="header__menu--item">
+      <p class="header__menu--title">Адрес</p>
+      <p class="header__menu--subtitle">Ул. Рождественская, 98</p>
+    </div>
+    <div class="header__menu--item">
+      <p class="header__menu--title">Режим работы</p>
+      <p class="header__menu--subtitle">Ежедневно с 10:00 - 22:00</p>
+    </div>
+    <div class="header__menu--item">
+      <p class="header__menu--title">Контакты</p>
+      <div class="header__menu--container">
+        <p class="header__menu--subtitle">Бронь столиков <br> 8 800 555-35-35</p>
+        <p class="header__menu--subtitle">Администрация <br> 8 800 555-35-35</p>
+      </div>
+    </div>
+    <div class="header__menu--item">
+      <a href="" class="header__menu--title">О нас</a>
+    </div>
+    <div class="header__menu--item">
+      <a href="" class="header__menu--title">Меню</a>
+    </div>
+    <div class="header__menu--item">
+      <a href="" class="header__menu--title">Бронь столиков</a>
+    </div>
+    <div class="header__menu--item">
+      <a href="" class="header__menu--title">Команда</a>
+    </div>
+    <div class="header__menu--item">
+      <a href="" class="header__menu--title">События</a>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__container container-wrap">
+      <div class="header__logo">
+        LOGO
+      </div>
+      <ul class="header__list">
+        <li class="header__item"><a href="" class="header__link text">Резерв</a></li>
+        <li class="header__item"><a href="" class="header__link text">Меню</a></li>
+        <li class="header__item"><a href="" class="header__link text">Спецпредложения</a></li>
+        <li class="header__item">
+          <div class="header__burger">
+            <div class="header__burger--line"></div>
+            <div class="header__burger--line"></div>
+            <div class="header__burger--line"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="hero__container container-wrap">
+      <div class="hero__left">
+        <div class="hero__num">
+          <svg xmlns="http://www.w3.org/2000/svg" width="121" height="659" viewBox="0 0 121 659" fill="none">
+            <path d="M0.136719 155.62L120.603 0.475586V658.628H68.2511V101.077L0.136719 188.649V155.62Z" fill="white"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="394" height="659" viewBox="0 0 394 659" fill="none">
+            <path d="M105.994 658.628H36.1913L278.251 403.791C253.763 415.911 225.898 422.578 196.908 422.578C88.5437 422.578 0.445312 327.734 0.445312 211.072C0.445312 94.4108 88.5437 0.475586 196.908 0.475586C305.271 0.475586 393.37 94.4108 393.37 211.072C393.37 263.797 375.919 309.856 346.084 349.248L105.994 658.628ZM196.908 22.8988C117.535 22.8988 52.7977 97.1379 52.7977 211.072C52.7977 325.006 117.535 400.155 196.908 400.155C276.28 400.155 341.017 325.006 341.017 211.072C339.329 97.4409 276.562 22.8988 196.908 22.8988Z" fill="white"/>
+          </svg>
+        </div>
+        <p class="hero__subtitle text">
+          Гастрономическое путешествие в&nbsp;прошлое, с&nbsp;неожиданными вкусовыми сочетаниями, которые запомнятся надолго
+        </p>
+      </div>
+      <div class="hero__right">
+        <img class="hero__food" src="./../img/hero-food.png" alt="">
+        <img class="hero__decor" src="./../img/hero-decor.png" alt="">
+        <img class="hero__video" src="./../img/hero-woomen.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <div class="about__container container-wrap">
+      <div class="about__left">
+        <div class="about__item about__text">
+          <p class="title">О нас</p>
+          <div class="paragraph-container">
+            <p class="subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, 
+              но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус. 
+              В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.
+            </p>
+            <p class="subtitle">
+              Наш шеф-повар тщательно подбирает ингредиенты для каждого блюда, чтобы создать идеальное сочетание вкусов и&nbsp;ароматов. 
+              В&nbsp;нашем меню вы&nbsp;найдёте множество блюд, начиная от&nbsp;классической французской утки конфи до&nbsp;экзотических десертов в&nbsp;стиле 19&nbsp;века.
+            </p>
+          </div>
+        </div>
+        <div class="about__item">
+          <div class="swiper about__swiper about__swiper--second">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide2.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide2.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide2.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide2.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="about__item about__text">
+          <p class="title">Меню</p>
+          <div class="paragraph-container">
+            <p class="subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус. 
+              В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.
+            </p>
+            <p class="subtitle">
+              Наш шеф-повар тщательно подбирает ингредиенты для каждого блюда, чтобы создать идеальное сочетание вкусов и&nbsp;ароматов. 
+              В&nbsp;нашем меню вы&nbsp;найдёте множество блюд, начиная от&nbsp;классической французской утки конфи до&nbsp;экзотических десертов в&nbsp;стиле 19&nbsp;века.
+            </p>
+            <p class="subtitle">
+              Мы&nbsp;также предлагаем винную карту, состоящую из&nbsp;лучших винных марок, которые прекрасно сочетаются с&nbsp;блюдами нашего меню. 
+              Мы&nbsp;также предлагаем винную карту, состоящую из&nbsp;лучших винных марок, которые прекрасно сочетаются с&nbsp;блюдами нашего меню.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about__right">
+        <div class="about__item">
+          <div class="swiper about__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide1.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide1.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide1.png" alt=""></div>
+              <div class="swiper-slide"><img class="slide-img" src="./../img/slide1.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+          </div>
+        </div>
+        <div class="about__item about__text">
+          <p class="title">История</p>
+          <div class="paragraph-container">
+            <p class="subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус. 
+              В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.
+            </p>
+            <p class="subtitle">
+              Наш шеф-повар тщательно подбирает ингредиенты для каждого блюда, чтобы создать идеальное сочетание вкусов и&nbsp;ароматов. 
+              В&nbsp;нашем меню вы&nbsp;найдёте множество блюд, начиная от&nbsp;классической французской утки конфи до&nbsp;экзотических десертов в&nbsp;стиле 19&nbsp;века.
+            </p>
+            <p class="subtitle">
+              Мы&nbsp;также предлагаем винную карту, состоящую из&nbsp;лучших винных марок, которые прекрасно сочетаются с&nbsp;блюдами нашего меню. 
+              Мы&nbsp;также предлагаем винную карту, состоящую из&nbsp;лучших винных марок, которые прекрасно сочетаются с&nbsp;блюдами нашего меню.
+            </p>
+          </div>
+        </div>
+        <div class="about__item">
+          <img src="./../img/food.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="price">
+    <div class="price__container container-wrap">
+      <div class="price__kitchen">
+        <ul class="accordion price__accordion">
+          <p class="price__title title">Бар</p>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Горячее</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Супы</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Закуски</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Десерты</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="price__bar">
+        <ul class="accordion price__accordion">
+          <p class="price__title title">Бар</p>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Коктейли</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Крепкий алкоголь</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Безалкогольные напитки</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__preview">
+              <p class="accordion__title price__item--title">Коктейли</p>
+              <div class="accordion__ico"></div>
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content--item price__subtitle">Утиная грудка с соусом из клюквы и карамелизированным картофелем</p>
+              <p class="accordion__content--item price__descr">Сочная утиная грудка обжаренная на&nbsp;сливочном масле до&nbsp;золотистой корочки, подаётся с&nbsp;
+                соусом из&nbsp;свежезамороженной клюквы, которая придаёт блюду лёгкую кислинку и&nbsp;гармонично сочетается с&nbsp;мягким мясом.</p>
+              <p class="accordion__content--item price__descr">350 / 10 / 200</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="form">
+    <div class="form__container container-wrap">
+      <div class="form__pics">
+        <img class="form__nums" src="./../img/nums.png" alt="">
+        <img class="form__pic" src="./../img/form-img.png" alt="">
+      </div>
+      <form class="form__wrapper" action="">
+        <p class="title form__title">Бронь столиков</p>
+        <div class="form__content">
+          <input class="form__item" placeholder="Ваше имя">
+          <div class="form__item form__count">
+            <p class="form__item--text">Количество персон:</p>
+            <div class="form__item--cnt">
+              <div class="form__item--decrement">-</div>
+              <div class="form__item--res">1</div>
+              <div class="form__item--increment">+</div>
+            </div>
+          </div>
+          <input class="form__item" placeholder="Номер телефона">
+          <input class="form__item" placeholder="Дата и время брони">
+        </div>
+        <button type="submit" class="form__submit">Забронировать</button>     
+      </form>
+    </div>
+  </div>
+  <div class="team">
+    <div class="team__container container-wrap">
+      <p class="title team__title">Команда</p>
+      <div class="swiper team__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide team__slide team__slide--big">
+            <div class="team__item">
+              <img class="team__item--img team__item--big" src="./../img/team/team1.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__item--img team__item--big" src="./../img/team/team1.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide team__slide">
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide team__slide">
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide team__slide">
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide team__slide">
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__item--img" src="./../img/team/team2.png" alt="">
+              <div class="team__text">
+                <p class="team__item--title">Виктор Иванов</p>
+                <p class="team__item--subtitle">шеф повар</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <div class="events">
+    <div class="events__container container-wrap">
+      <p class="events__title title">События</p>
+      <div class="events__wrapper">
+        <div class="events__item event">
+          <img class="event__img" src="./../img/events/event1.png" alt="">
+          <p class="event__title">Комплимент от шефа</p>
+          <p class="event__subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус. 
+            В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.</p>
+        </div>
+        <div class="events__item event">
+          <img class="event__img" src="./../img/events/event2.png" alt="">
+          <p class="event__title">Скидка в День рождения</p>
+          <p class="event__subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус. 
+            В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.</p>
+        </div>
+        <div class="events__item event">
+          <img class="event__img" src="./../img/events/event3.png" alt="">
+          <p class="event__title">Подарок для вас</p>
+          <p class="event__subtitle">Наше меню представлено блюдами, которые были популярны в&nbsp;19&nbsp;веке, но&nbsp;теперь они приобрели совершенно новое звучание и&nbsp;вкус.
+            В&nbsp;меню вы&nbsp;найдёте множество интересных сочетаний продуктов, уникальные текстуры и&nbsp;вкусы.</p>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <footer class="footer">
+    <div class="footer__container container-wrap">
+      <div class="footer__item footer__logo">
+        L O G O
+      </div>
+      <div class="footer__item footer__contacts">
+        <p class="footer__title">Адрес</p>
+        <p class="footer__subtitle">Ул. Рождественская, 98</p>
+      </div>
+      <div class="footer__item footer__contacts">
+        <p class="footer__title">Режим работы</p>
+        <p class="footer__subtitle">Ежедневно с 10:00 - 22:00</p>
+      </div>
+      <div class="footer__item footer__contacts">
+        <p class="footer__title">Контакты</p>
+        <div class="footer__text--wrapper">
+          <p class="footer__subtitle">Бронь столиков <br> 8 800 555-35-35</p>
+          <p class="footer__subtitle">Администрация <br> 8 800 555-35-35</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
